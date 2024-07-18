@@ -554,6 +554,46 @@ strong {
   letter-spacing: 0.05em;
 }
 
+/* 11. parallax */
+.parallax-overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  background: #73ae7a;
+  z-index: 0;
+  }
+
+  .parallax {
+    display: block;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    padding: 200px 0;
+    }
+
+    @media only screen and (max-width: 880px) {
+      .parallax {
+        padding: 100px 0;
+      }
+    }
+
+    .parallax-all {
+      position: relative;
+      background-repeat: no-repeat;
+      background-position: center center;
+          -webkit-background-size: cover;
+             -moz-background-size: cover;
+              -ms-background-size: cover;
+               -o-background-size: cover;
+                  background-size: cover;
+      border: none;
+      z-index: 1;
+      }
+      
+    
+
 /* 12. fullwidth IMG */
 .img-fullwidth-wrapper {
   position: relative;
@@ -1336,6 +1376,119 @@ blockquote {
   }
 }
 
+/* 19. contact */
+.contact-info-wrapper {
+  position: relative;
+  padding: 0;
+  z-index: 1;
+  }
+  
+  .contact-info-description {
+  color: #fff;
+  text-align: center;
+  text-transform: uppercase;
+  }
+  
+  .contact-info-description-img {
+  display: block;
+  font-size: 25px;
+  text-align: center;
+  color: #fff;
+  margin: -5px auto 0 auto;
+   -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+     -moz-text-size-adjust: 100%;
+      -ms-text-size-adjust: 100%;
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+  }
+  
+  @media only screen and (max-width: 995px) {
+    .contact-info-description-img {
+      font-size: 25px;
+    margin: -5px auto 0 auto;
+    }
+  }
+  
+  .contact-info-description-img.large {
+  font-size: 40px;
+  margin: 15px auto 0 auto;
+  }
+  
+  @media only screen and (max-width: 995px) {
+    .contact-info-description-img.large {
+      font-size: 25px;
+    margin: -5px auto 0 auto;
+    }
+  }
+  
+  .contact-info-text {
+  font-size: 13px;
+  letter-spacing: 0.05em;
+   -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+     -moz-text-size-adjust: 100%;
+      -ms-text-size-adjust: 100%;
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+  }
+  
+  @media only screen and (max-width: 995px) {
+    .contact-info-text {
+      font-size: 12px;
+    }
+  }
+  
+  @media only screen and (max-width: 640px) {
+    .contact-info-text {
+      font-size: 11px;
+    }
+  }
+  
+  .contact-info-text.large {
+  font-size: 14px;
+  letter-spacing: 0.05em;
+   -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+     -moz-text-size-adjust: 100%;
+      -ms-text-size-adjust: 100%;
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+  }
+  
+  @media only screen and (max-width: 995px) {
+    .contact-info-text.large {
+      font-size: 12px;
+    }
+  }
+  
+  @media only screen and (max-width: 640px) {
+    .contact-info-text.large {
+      font-size: 11px;
+    }
+  }
+  
+  .contact-info-text a,
+  .contact-info-text a:hover,
+  .contact-info-text a:visited,
+  .contact-info-text a:active,
+  .contact-info-text a:focus {
+  color: #fff;
+  text-decoration: none;
+  outline: none;
+  -webkit-transition: all 0.5s linear;
+     -moz-transition: all 0.5s linear;
+      -ms-transition: all 0.5s linear;
+       -o-transition: all 0.5s linear;
+          transition: all 0.5s linear;
+  -webkit-transform: translate3d(0, 0, 0);
+          transform: translate3d(0, 0, 0);
+  }
+  
+
 /* 20. footer */
 .footer-credits {
   text-align: center;
@@ -1501,7 +1654,7 @@ a.link-effect:hover::after {
 
 .item-button {
   position: relative;
-  font-family: "Playfair Display", serif;
+  font-family: "Italiana", serif;
   font-size: 15px;
   font-weight: 800;
   text-align: center;
@@ -2482,7 +2635,7 @@ video {
 
 .mfp-title,
 .mfp-counter {
-  font-family: "Raleway", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 13px;
   line-height: 1.5;
   font-style: normal;
@@ -2681,31 +2834,6 @@ video {
 form {
   margin: 0;
   padding: 0;
-}
-
-#form input {
-  position: relative;
-  width: 100%;
-  height: 40px;
-  border-bottom: 1px solid #111;
-  border-left: none;
-  border-right: none;
-  border-top: none;
-  padding: 5px 5px;
-  background: none;
-  margin: 10px 0 20px 0;
-  font-family: "Raleway", sans-serif;
-  font-size: 13px;
-  line-height: 1.5;
-  font-style: normal;
-  font-weight: 600;
-  text-align: center;
-  color: #111;
-  -webkit-transition: all 0.5s linear;
-  -moz-transition: all 0.5s linear;
-  -ms-transition: all 0.5s linear;
-  -o-transition: all 0.5s linear;
-  transition: all 0.5s linear;
 }
 
 textarea {
@@ -4725,6 +4853,49 @@ h2.hero-heading {
   position: absolute;
   left: 0;
 }
+
+/* parallax */
+.parallax {
+  padding: 130px 0;
+  }
+  
+  @media all and (min-width: 1920px) {
+    .parallax {
+      padding: 140px 0;
+    }
+  }
+  
+  @media only screen and (max-width: 880px) {
+    .parallax {
+      padding: 120px 0;
+    }
+  }
+  
+  
+  /* Lity CUSTOM */
+  .lity-close {
+  top: 40px;
+  right: 40px;
+  }
+  
+  @media only screen and (max-width: 880px) {
+    .lity-close {
+      top: 10px;
+      right: 10px;
+    }
+  }
+  
+  .lity-close:active {
+  top: 40px;
+  right: 40px;
+  }
+  
+  @media only screen and (max-width: 880px) {
+    .lity-close:active {
+      top: 10px;
+      right: 10px;
+    }
+  }
 
 /* blog news */
 /* news quote */
@@ -7686,7 +7857,7 @@ button {
   border: none;
   background: none;
   outline: none;
-  font-family: "Playfair Display", serif;
+  font-family: "Italiana", serif;
   font-size: 10px;
   font-style: normal;
   font-weight: 800;
