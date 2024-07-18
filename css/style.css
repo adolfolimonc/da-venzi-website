@@ -2847,7 +2847,7 @@ textarea {
   padding: 5px 5px;
   background: none;
   margin: 5px;
-  font-family: "Raleway", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 13px;
   line-height: 1.5;
   font-style: normal;
@@ -2890,7 +2890,7 @@ textarea {
 }
 
 .success {
-  font-family: "Raleway", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 10px;
   font-style: normal;
   font-weight: 600;
@@ -2986,7 +2986,7 @@ button {
   border: none;
   background: none;
   outline: none;
-  font-family: "Playfair Display", serif;
+  font-family: "Italiana", serif;
   font-size: 10px;
   font-style: normal;
   font-weight: 800;
@@ -2996,134 +2996,6 @@ button {
   color: #111;
   margin: 0 auto;
   cursor: pointer;
-}
-
-/* 36. blog news */
-.news-modal .modal-content {
-  min-height: 100%;
-  -webkit-border-radius: 0;
-  -moz-border-radius: 0;
-  border-radius: 0;
-  -webkit-background-clip: border-box;
-  background-clip: border-box;
-  -webkit-box-shadow: none;
-  box-shadow: none;
-  margin: 0;
-  padding: 0;
-  border: none;
-  background: #e7dddd;
-}
-
-/* news quote */
-.blog-quote {
-  line-height: 100px;
-  padding: 0 0 0 50px;
-  border-left: 5px solid #5f5f5f;
-  margin: 0;
-}
-
-@media only screen and (max-width: 880px) {
-  .blog-quote {
-    padding: 0 0 0 30px;
-    margin: 0;
-  }
-}
-
-.blog-quote p {
-  position: relative;
-  font-family: "Playfair Display", serif;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 45px;
-  text-align: left;
-  text-transform: none;
-  letter-spacing: -0.02em;
-  color: #5f5f5f;
-  margin: -12px 0 0 0;
-  top: -2px;
-  width: 100%;
-  line-height: 1.15;
-  text-shadow: none;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-text-size-adjust: 100%;
-  -moz-text-size-adjust: 100%;
-  -ms-text-size-adjust: 100%;
-  -webkit-backface-visibility: hidden;
-  backface-visibility: hidden;
-}
-
-@supports ((text-stroke: 1px #5f5f5f) or (-webkit-text-stroke: 1px #5f5f5f)) {
-  .blog-quote p {
-    color: transparent;
-    -webkit-text-stroke: 1px #5f5f5f;
-    text-stroke: 1px #5f5f5f;
-    text-shadow: none;
-  }
-}
-
-@media only screen and (max-width: 995px) {
-  .blog-quote p {
-    font-size: 35px;
-  }
-}
-
-@media only screen and (max-width: 880px) {
-  .blog-quote p {
-    font-size: 30px;
-    margin: 0;
-    top: 0;
-  }
-}
-
-.blog-quote p span {
-  color: #5f5f5f;
-  -webkit-text-stroke: 1px #5f5f5f;
-  text-stroke: 1px #5f5f5f;
-  text-shadow: none;
-}
-
-/* news nopadding */
-@media only screen and (max-width: 880px) {
-  .nopadding {
-    padding: 0 !important;
-    margin: 0 !important;
-  }
-}
-
-.nopadding.nopadding-xs {
-  margin-left: -15px !important;
-  margin-right: -15px !important;
-}
-
-@media only screen and (max-width: 880px) {
-  .nopadding.nopadding-xs {
-    margin-left: -10px !important;
-    margin-right: -10px !important;
-  }
-}
-
-/* news lower page */
-.lower-page.lower-page-modal {
-  position: relative;
-  height: auto;
-  min-height: inherit;
-  overflow: hidden;
-  margin-left: 0;
-  margin-right: 0;
-}
-
-@media only screen and (max-width: 880px) {
-  .lower-page.lower-page-modal {
-    padding: 0;
-  }
-}
-
-/* news img */
-.section-item img {
-  width: 33vw;
-  height: 66vh;
-  object-fit: cover;
 }
 
 /* 37. PhotoSwipe CUSTOM */
@@ -4388,7 +4260,7 @@ h2.hero-heading {
 
 /* skills bar */
 .skillbar-title {
-  font-family: "Playfair Display", serif;
+  font-family: "Italiana", serif;
   font-size: 13px;
   font-weight: 500;
   text-transform: uppercase;
@@ -4397,7 +4269,7 @@ h2.hero-heading {
 }
 
 .skill-bar-percent {
-  font-family: "Playfair Display", serif;
+  font-family: "Italiana", serif;
   font-size: 13px;
   font-weight: 500;
   text-transform: uppercase;
@@ -4454,7 +4326,7 @@ h2.hero-heading {
   line-height: 21px;
   top: -21px;
   left: 0;
-  font-family: "Playfair Display", serif;
+  font-family: "Italiana", serif;
   font-size: 10px;
   font-weight: 700;
   text-transform: uppercase;
@@ -4485,7 +4357,7 @@ h2.hero-heading {
 
 /* skills bar */
 .skillbar-title-2 {
-  font-family: "Playfair Display", serif;
+  font-family: "Italiana", serif;
   font-size: 13px;
   font-weight: 500;
   text-transform: uppercase;
@@ -4494,7 +4366,7 @@ h2.hero-heading {
 }
 
 .skill-bar-percent-2 {
-  font-family: "Playfair Display", serif;
+  font-family: "Italiana", serif;
   font-size: 13px;
   font-weight: 500;
   text-transform: uppercase;
@@ -4811,7 +4683,7 @@ h2.hero-heading {
 
 /* parallax button more */
 .more-button-txt-center.more-button-txt-center-close span {
-  font-family: "Playfair Display", serif;
+  font-family: "Italiana", serif;
   font-size: 13px;
   font-weight: 500;
   letter-spacing: 0.05em;
@@ -5581,7 +5453,7 @@ button {
 
 .intro-years h3 {
   position: relative;
-  font-family: "Playfair Display", serif;
+  font-family: "Italiana", serif;
   font-style: normal;
   font-weight: 700;
   font-size: 150px;
